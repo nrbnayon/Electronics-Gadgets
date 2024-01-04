@@ -218,7 +218,41 @@ footer {
   line-gap-override: 2rem;
 }
 
-/* @media only screen and (min-width:576px) and (max-width:1080px) {
-
-
-} */
+@media only screen and (min-width: 360px) and (max-width: 1080px) {
+  .container {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .btn {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .btn a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 900;
+  }
+  .all-collection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .colltection-item {
+    width: 100%;
+  }
+  .all-brand {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+}
